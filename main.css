@@ -1,0 +1,122 @@
+body {
+    background-color: #eff2f4;
+}
+
+header {
+    height: 40vh;
+    background-color: #22b9ad;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.nav-btn {
+    border: 1px solid #ffa010;
+    background-color: #ffa010;
+    color: white;
+    font-size: 10pt;
+    height: 35px;
+}
+
+.nav-btn:hover {
+    background-color: #ca7f0d;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255,255,255,.3);
+    color: white;
+    font-size: 10pt;
+}
+
+.btn-outline-light, p {
+    height: 35px;
+    font-size: 10pt;
+    margin-right: 10px;
+}
+
+.btn-outline-grey {
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    height: 35px;
+    font-size: 10pt;
+    width: 160px;
+    margin-right: 10px;
+
+}
+
+.btn-outline-grey:last-child {
+    margin-right: 0;
+}
+
+.filter-form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: fit-content;
+    margin: -50px auto;
+}
+
+img {
+    width: 100%;
+}
+
+.card > p{
+    height: 5px;
+}
+
+.price {
+    font-weight: bold; color: #22b9ad;
+}
+
+.card {
+    padding: 10px;
+}
+
+.mileage {
+    background-color: rgb(242, 242, 242);
+    height: 20px;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.d-block {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    color: black;
+}
+
+
+.brand-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.brand-label {
+    font-size: 15pt;
+    text-align: center;
+}
+
+.brand-link:hover {
+    background-color: rgba(47, 255, 133, 0.3);
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+footer {
+    height: 100px;
+    background-color: #22b9ad;
+}
